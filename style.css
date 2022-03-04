@@ -46,5 +46,47 @@
 /*    background-color: crimson;*/
 /*}*/
 
+/*#index, #footer {*/
+/*    background-color: #f1f1f1;*/
+/*    border: 1px solid grey;*/
+/*}*/
 
+/*#index > p {*/
+/*   font-weight: bold;*/
+/*    font-style: italic;*/
+/*    font-size: 2rem;*/
+/*    margin-left: 20px;*/
+/*}*/
 
+/*ul {*/
+/*    list-style-type: none;*/
+/*}*/
+
+/*ol li {*/
+/*    opacity: 1;*/
+/*    transition: .5s ease all;*/
+/*}*/
+
+/*ol li:hover {*/
+/*    cursor: pointer;*/
+/*    opacity: 0.6;*/
+/*    transition: .5s ease all;*/
+/*}*/
+
+/*ul li:before {*/
+/*   content: ' ☑️';*/
+/*}*/
+
+* {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15%;
+}
+
+#hero {
+    background-color: skyblue;
+    height: 250px;
+}
