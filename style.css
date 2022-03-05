@@ -77,16 +77,28 @@
 /*   content: ' ☑️';*/
 /*}*/
 
-* {
-    margin: 0;
-}
+/** {*/
+/*    margin: 0;*/
+/*}*/
 
-h1 {
-    text-align: center;
-    padding-top: 15%;
-}
+/*h1 {*/
+/*    text-align: center;*/
+/*    padding-top: 15%;*/
+/*}*/
 
-#hero {
+/*#hero {*/
+/*    background: bottom / 100% url("mtn.jpg");*/
+/*    height: 250px;*/
+/*}*/
+
+.box-container {
+    width: 80%;
+    height: 50%;
     background-color: skyblue;
-    height: 250px;
+}
+
+.box {
+    width: 30%;
+    height: 30%;
+    background-color: cornflowerblue;
 }
