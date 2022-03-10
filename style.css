@@ -144,6 +144,7 @@
 }
 */
 
+/*
 * {
     margin: 0;
     padding: 0;
@@ -209,4 +210,55 @@ h4 {
 .box-ctr-3 {
     flex-direction: column;
     align-items: flex-end;
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 900px;
+    height: 100%;
+    margin: 80px auto;
+    background-color: red;
+}
+
+.blog-title {
+    width: 100%;
+    height: 15%;
+    background-color: blue;
+}
+
+.top-post {
+    width: 100%;
+    height: 35%;
+    background-color: green;
+    display: flex;
+}
+
+.top-post > img {
+    width: 65%;
+}
+
+.post-details {
+    background-color: skyblue;
+    width: 35%;
+}
+
+.other-posts {
+    width: 100%;
+    height: 30%;
+    background-color: orange;
 }
