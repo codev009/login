@@ -254,6 +254,10 @@ body {
 
 .post-details {
     background-color: skyblue;
+    width: 100%;
+}
+
+.top-post-details {
     width: 35%;
 }
 
@@ -261,4 +265,18 @@ body {
     width: 100%;
     height: 30%;
     background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.other-post {
+    width: 30%;
+    height: 100%;
+    background-color: grey;
+}
+
+.other-post > img {
+    width: 100%;
+    height: 100%;
 }
