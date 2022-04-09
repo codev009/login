@@ -226,25 +226,25 @@ html {
 body {
     width: 100%;
     height: 100%;
+    font-family: "Raleway SemiBold", sans-serif;
 }
 
 .container {
     width: 900px;
     height: 100%;
-    margin: 80px auto;
-    background-color: red;
+    margin: 120px auto;
 }
 
 .blog-title {
     width: 100%;
     height: 15%;
-    background-color: blue;
+    border-bottom: 1px solid grey;
 }
 
 .top-post {
     width: 100%;
     height: 35%;
-    background-color: green;
+    padding-top: 40px;
     display: flex;
 }
 
@@ -253,7 +253,6 @@ body {
 }
 
 .post-details {
-    background-color: skyblue;
     width: 100%;
 }
 
@@ -264,7 +263,6 @@ body {
 .other-posts {
     width: 100%;
     height: 30%;
-    background-color: orange;
     display: flex;
     justify-content: space-between;
     padding-top: 35px;
@@ -273,7 +271,6 @@ body {
 .other-post {
     width: 30%;
     height: 100%;
-    background-color: grey;
 }
 
 .other-post > img {
